@@ -20,11 +20,17 @@
 	margin-left: 289px;
 }
 
-#search
+div#right_header
 {
-	float: left;
-	margin-left: 60px;
-	padding-top: 55px;
+	float: right;
+	padding-top: 20px;
+	margin-right: 62px;
+}
+
+div#languages
+{
+	text-align: right;
+	margin-bottom: 20px;
 }
 
 input

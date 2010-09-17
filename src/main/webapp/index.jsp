@@ -18,7 +18,11 @@
 						<div id="logo">
 							<img src="<c:url value="/images/logo.png"/>"/>							
 						</div>
-						<div id="search">
+						<div id="right_header">
+							<div id="languages">
+								<a href="?locale=en_us"  class="qTip" title="<fmt:message key="lang.en"/>" ><img src="<c:url value="/images/us.png"/>" /></a>
+								<a href="?locale=en_us"  class="qTip" title="<fmt:message key="lang.en"/>" ><img src="<c:url value="/images/cn.png"/>" /></a>
+							</div>
 							<form>
 								<div>
 									<input type="text"/>
