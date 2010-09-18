@@ -95,6 +95,12 @@ ul#sub_menu li a:hover
 	text-decoration: underline;
 }
 
+ul#sub_menu li#sub_menu_first a
+{
+	color: #2F950C;
+	text-decoration: underline;
+}
+
 ul#main_menu li
 {
 	background: url("/images/bg-li.gif") no-repeat scroll right 0 transparent;
@@ -211,7 +217,18 @@ div#products ul li img
 	height: 190px;
 }
 
-span#prev, span#next
+span#prev
 {
-	display: none;
+	float: left;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+span#next
+{
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 0;
 }

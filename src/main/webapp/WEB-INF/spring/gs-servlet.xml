@@ -10,6 +10,8 @@
     
 	<mvc:annotation-driven/>
 	
+	<mvc:view-controller path="/index.html" />
+	
 	<mvc:interceptors>
 		<bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor" p:paramName="locale"/>
 	</mvc:interceptors>
@@ -18,7 +20,7 @@
 
 	<bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource"
 		p:basename="classpath:i18n/messages" p:cacheSeconds="0"/>
-	
+		
 	<bean id="tilesConfigurer"
 		class="org.springframework.web.servlet.view.tiles2.TilesConfigurer"
 		p:definitions="/WEB-INF/tiles-defs/templates.xml" />
@@ -27,4 +29,5 @@
 		class="org.springframework.web.servlet.view.UrlBasedViewResolver"
 		p:viewClass="org.springframework.web.servlet.view.tiles2.TilesView"
 		p:order="1" />
+		
 </beans>
