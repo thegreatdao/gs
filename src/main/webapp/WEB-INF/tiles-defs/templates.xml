@@ -5,10 +5,12 @@
 
 <tiles-definitions>
 
-	<definition name="baseLayout" template="/WEB-INF/jsp/index.jsp">
+	<definition name="baseLayout" template="/WEB-INF/jsp/main.jsp">
+		<put-attribute name="nav" value="/WEB-INF/jsp/nav.jsp" />
 	</definition>
  
 	<definition name="index" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
 	</definition>
 
 </tiles-definitions>
