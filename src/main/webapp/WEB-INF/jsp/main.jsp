@@ -33,13 +33,14 @@
 						</div>
 					</div>
 					<div class="clear"></div>
-					<div class="grid_12" id="products">						
-						<ul style="display: none;">                        
-	                        <li><img src="<c:url value="/images/products/cloakofnight.jpg"/>"/></li>
-	                        <li><img src="<c:url value="/images/products/kitzbuhelmountainview.jpg"/>"/></li>
-	                        <li><img src="<c:url value="/images/products/pontadosolbay.jpg"/>"/></li>
-	                        <li><img src="<c:url value="/images/products/thegardenofeden.jpg"/>"/></li>
-	                        <li><img src="<c:url value="/images/products/magensbay.jpg"/>"/></li>
+					<div class="grid_12">
+						<div  id="products_header"></div>
+					</div>
+					<div class="clear"></div>					
+					<div class="grid_12" id="products">
+						<ul style="display: none;">
+	                        <li><img src="<c:url value="/images/products/solar2.png"/>"/></li>
+							<li><img src="<c:url value="/images/products/solar.png"/>"/></li>
 	                    </ul>
 					</div>
 					<div class="clear"></div>
