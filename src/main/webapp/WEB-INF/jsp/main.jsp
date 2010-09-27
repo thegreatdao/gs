@@ -17,7 +17,7 @@
 				<div id="right_shadow">
 					<div class="grid_12" id="header">
 						<div id="logo">
-							<img src="<c:url value="/images/logo.png"/>"/>		
+							<img src="<c:url value="/images/gs.png"/>"/>		
 						</div>
 						<div id="right_header">
 							<div id="languages">
