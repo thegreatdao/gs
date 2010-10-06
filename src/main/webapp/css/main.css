@@ -243,3 +243,17 @@ span#next
 	top: 0;
 	display: none;
 }
+
+#products
+{
+	position: relative;
+	background: url(images/loading.gif) no-repeat 50% 50%; 
+}
+
+#products img
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
